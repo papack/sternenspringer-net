@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/bgimage.jpg");
+  background-size: cover;
+}
+
+.container header {
+  background-color: black;
+  width: 100%;
+  height: 8rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  align-items: center;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.iconsContainer img {
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 8.1rem;
+  cursor: pointer;
+}
+
+.navContainer ul {
+  list-style-type: none;
+  width: 20rem;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.navContainer li {
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.container footer {
+  background-color: black;
+  height: 8rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
