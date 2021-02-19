@@ -1,7 +1,9 @@
-.textContainer {
+.section {
   background-color: green;
-  width: 40vw;
+  width: 90vw;
   padding: 7rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   border-radius: 4rem;
   background-color: rgba(163, 166, 220, 0.38);
   backdrop-filter: blur(75px);
@@ -9,25 +11,15 @@
   text-align: center;
 }
 
-.textContainer h1 {
+.section h1 {
   font-size: 4.8rem;
   margin-bottom: 3rem;
 }
 
-.textContainer h2 {
+.section h2 {
   font-size: 3.6rem;
 }
 
-.textContainer p {
+.section p {
   font-size: 2.4rem;
-}
-
-.section {
-  display: flex;
-  justify-content: space-around;
-  width: 100vw;
-  padding-left: 2rem;
-  flex-wrap: wrap-reverse;
-  margin-bottom: 4rem;
-  margin-top: 7rem;
 }
