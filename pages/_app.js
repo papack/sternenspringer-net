@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import style from "../styles/base.module.css";
 import Head from "next/head";
-import Link from "next/Link";
+import Link from "next/link";
 
 function MyApp({ Component, pageProps }) {
   return (
