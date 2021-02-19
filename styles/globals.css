@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Unica One", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
