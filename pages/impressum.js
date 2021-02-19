@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import style from "../styles/impressum.module.css";
+import style from "../styles/Impressum.module.css";
 
 class Imprint extends Component {
   constructor(props) {
